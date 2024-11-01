@@ -2,9 +2,8 @@
 import { styled } from "@stitches/react";
 
 export const BodyTableContainer = styled('div', {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(7, 1fr)',
     gap: '1rem',
     width: '100%',
     height: '100%',
@@ -20,6 +19,7 @@ export const ContentTable = styled('div', {
     padding: '8px 12px',
     gap: '10px',
     alignSelf: 'stretch',
+    boxSizing: 'border-box',
     variants: {
         type: {
             'img': {

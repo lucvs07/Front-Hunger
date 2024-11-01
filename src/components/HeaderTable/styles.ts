@@ -1,10 +1,10 @@
 import { styled } from "@stitches/react";
 
 export const HeaderTableContainer = styled('div', {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(7, 1fr)',
     gap: '1rem',
+    width: '100%',
 });
 
 export const HeaderTableTitle = styled('h1', {
@@ -19,4 +19,5 @@ export const HeaderTableTitle = styled('h1', {
     fontWeight: '400',
     fontStyle: 'normal',
     textTransform: 'uppercase',
+    boxSizing: 'border-box',
 });
