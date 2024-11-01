@@ -2,10 +2,13 @@
 import { 
     HomeContainer,
     Title,
-    HomeTitle
+    HomeTitle,
+    TableContainer,
+    Linha
 } from './styles';
 import { Input } from '../../components/Input/Input';
 import { HeaderTable } from '../../components/HeaderTable/HeaderTable';
+import { BodyTable } from '../../components/BodyTable/BodyTable';
 import { Feather } from '@phosphor-icons/react';
 export const Home = () => {
     return (
@@ -15,7 +18,11 @@ export const Home = () => {
                 <Feather size={68} color='#C03221' weight='fill'/>
             </HomeTitle>
             <Input />
-            <HeaderTable />
+            <TableContainer>
+                <HeaderTable />
+                <BodyTable />
+            </TableContainer>
+            <Linha />
         </HomeContainer>
     )
 };

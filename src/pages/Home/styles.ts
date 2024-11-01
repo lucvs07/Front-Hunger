@@ -33,3 +33,25 @@ export const HomeTitle = styled("div", {
         borderRadius: "1rem",
     },
 });
+
+export const TableContainer = styled("div", {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "1rem",
+    padding: "0.5rem",
+    width: "100%",
+    height: "100%",
+});
+
+export const Linha = styled("div", {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "1rem",
+    width: "100%",
+    height: "6px",
+    backgroundColor: "rgba(255, 255, 255, 0.10)",
+    backdropFilter: "blur(10px)",
+});

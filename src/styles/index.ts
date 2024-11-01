@@ -14,6 +14,7 @@ export const {
         colors: {
             black: "#252422",
             blackGlass: "rgba(204, 197, 185, 0.10)",
+            borderBlack:" rgba(33, 192, 118, 0.01)",
             olive: "#403D39",
             orange: "#FFA737",
             orangeGlass: "rgba(255, 167, 55, 0.4)",
