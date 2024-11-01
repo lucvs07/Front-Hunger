@@ -9,6 +9,8 @@ import {
 import { Input } from '../../components/Input/Input';
 import { HeaderTable } from '../../components/HeaderTable/HeaderTable';
 import { BodyTable } from '../../components/BodyTable/BodyTable';
+import { YesterdayCharacter } from '../../components/YesterdayCharacter/YesterdayCharacter';
+import { Footer } from '../../components/Footer/Footer';
 import { Feather } from '@phosphor-icons/react';
 export const Home = () => {
     return (
@@ -23,6 +25,8 @@ export const Home = () => {
                 <BodyTable />
             </TableContainer>
             <Linha />
+            <YesterdayCharacter />
+            <Footer />
         </HomeContainer>
     )
 };
