@@ -30,7 +30,7 @@ export const InputField = styled("input", {
 
 export const SendButton = styled("button", {
     display: "flex",
-    padding: "15.5px 1rem",
+    padding: "1.3rem 1rem",
     justifyContent: "center",
     alignItems: "center",
     gap: "10px",

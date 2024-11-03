@@ -34,7 +34,6 @@ export const Home = () => {
     const [dailyCharacter, setDailyCharacter] = useState<Character | null>(null);
     const [lastCharacter, setLastCharacter] = useState<Character | null>(null);
     const [allCharacters, setAllCharacters] = useState<Character[] | null>(null);
-    const [guess, setGuess] = useState<string>('');
     const [history, setHistory] = useState<{ character: Character, comparison: { name: string, occupation: string, weapon: string, house: string, gender: string, appearance: string } }[]>([]);
 
     useEffect(() => {
@@ -67,11 +66,9 @@ export const Home = () => {
           });
       }, []);
 
-    const handleGuess = (value : string) => {
-        setGuess(value);
-    }
-    const handleSend = () => {
-        const foundCharacter = allCharacters?.find((character: Character) => character.name === guess);
+    type OptionType = { value: string }; // Define OptionType
+    const handleSend = (selectedValue: OptionType['value'] | null) => {
+        const foundCharacter = allCharacters?.find((character: Character) => character.name === selectedValue);
         if (foundCharacter && dailyCharacter) {
             const comparison = {
                 name: foundCharacter.name === dailyCharacter.name ? 'correct' : 'incorrect',
@@ -88,7 +85,6 @@ export const Home = () => {
                 appearance: foundCharacter.appearance === dailyCharacter.appearance ? 'correct' : 'incorrect'
             };
             setHistory((prev) => [...prev, { character: foundCharacter, comparison }]);
-            setGuess('');
         }
     };
     return (
@@ -97,7 +93,7 @@ export const Home = () => {
                 <Title>HUNGERDLE</Title>
                 <Feather size={68} color='#C03221' weight='fill'/>
             </HomeTitle>
-            <Input onChange={handleGuess} onSend={handleSend}/>
+            <Input onSend={handleSend} allCharacters={allCharacters}/>
             <TableContainer>
                 <HeaderTable />
                 <BodyTable history={history}/>
