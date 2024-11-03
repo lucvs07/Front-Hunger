@@ -1,5 +1,10 @@
 
-import { styled } from "@stitches/react";
+import { styled, keyframes} from "@stitches/react";
+
+const fadein = keyframes({
+    '0%': { opacity: 0, transform: 'translateY(10px)' },
+    '100%': { opacity: 1, transform: 'translateY(0px)' },
+});
 
 export const BodyTableContainer = styled('div', {
     display: 'grid',
@@ -20,6 +25,8 @@ export const ContentTable = styled('div', {
     gap: '10px',
     alignSelf: 'stretch',
     boxSizing: 'border-box',
+    opacity: 0,
+    animation: `${fadein} 0.5s ease-in-out forwards`,
     variants: {
         type: {
             'img': {

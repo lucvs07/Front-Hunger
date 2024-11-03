@@ -4,12 +4,17 @@ import {
     Title,
     Subtitle
  } from "./styles";
-export const YesterdayCharacter = () => {
+
+interface YesterdayCharacterProps {
+    img: string;
+    name: string;
+}
+export const YesterdayCharacter = ({img, name} : YesterdayCharacterProps) => {
     return (
         <YesterdayCharacterContainer>
             <Title>Yesterday Character</Title>
-            <Image src="https://recreio.com.br/media/_versions/filmes/jogos_vorazes_arena_capa_widelg.jpg" alt="Character" />
-            <Subtitle>#12 Katniss Everdeen</Subtitle>
+            <Image src={img} alt="Character" />
+            <Subtitle>{name}</Subtitle>
         </YesterdayCharacterContainer>
     );
 };
