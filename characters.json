@@ -6,7 +6,7 @@
         "house": "District 11",
         "appearance": "The Ballad of Songbirds and Snakes",
         "gender": "Male",
-        "img": ""
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743110/Reaper_s0hdpe.webp"
     },
     {
         "name": "Lucy Gray",
@@ -15,7 +15,7 @@
         "house": "District 12",
         "appearance": "The Ballad of Songbirds and Snakes",
         "gender": "Female",
-        "img": ""
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743160/LucyGray-Poster_k4jckc.webp"
     },
     {
         "name": "Bobbin",
@@ -24,7 +24,7 @@
         "house": "District 8",
         "appearance": "The Ballad of Songbirds and Snakes",
         "gender": "Male",
-        "img": ""
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743257/Bobbin_i5nmbz.webp"
     },
     {
         "name": "Brandy",
@@ -33,6 +33,276 @@
         "house": "District 10",
         "appearance": "The Ballad of Songbirds and Snakes",
         "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743291/Brandy_lwl50z.webp"
+    },
+    {
+        "name": "Circ",
+        "occupation": ["Tribute"],
+        "weapon": ["Eletronic"],
+        "house": "District 3",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743427/Circ__28TBOSAS_29_wzetxz.webp"
+    },
+    {
+        "name": "Cunning Coral",
+        "occupation": ["Tribute"],
+        "weapon": ["Trident", "Knife"],
+        "house": "District 4",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743499/Coral__28TBOSAS_29_nqidra.webp"
+    },
+    {
+        "name": "Jessup Digss",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 12",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743662/Jessup_Diggs_ng4ill.webp"
+    },
+    {
+        "name": "Dill",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 11",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743662/Jessup_Diggs_ng4ill.webp"
+    },
+    {
+        "name": "Facet",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 1",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743856/Facet__28TBOSAS_29_nudosn.webp"
+    },
+    {
+        "name": "Ginnee",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 6",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743910/Ginnee_qgod6n.webp"
+    },
+    {
+        "name": "Hy",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 5",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730743957/Hy__28TBOSAS_29_mr9k6d.webp"
+    },
+    {
+        "name": "Lamina",
+        "occupation": ["Tribute"],
+        "weapon": ["Axe", "Knife"],
+        "house": "District 7",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744012/Lamina_xsxtux.webp"
+    },
+    {
+        "name": "Marcus",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 2",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744129/Marcus__28TBOSAS_29_ybm6hb.webp"
+    },
+    {
+        "name": "Merciless Mizzen",
+        "occupation": ["Tribute"],
+        "weapon": ["Trident", "Knife", "Net", "Spear"],
+        "house": "District 4",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744206/Mizzen_hhi4jr.webp"
+    },
+    {
+        "name": "Otto",
+        "occupation": ["Tribute"],
+        "weapon": ["Crossbow"],
+        "house": "District 6",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744271/Otto__28TBOSAS_29_kphoqh.webp"
+    },
+    {
+        "name": "Panlo",
+        "occupation": ["Tribute"],
+        "weapon": ["Sword"],
+        "house": "District 9",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744386/Panlo_ptakzq.webp"
+    },
+    {
+        "name": "Sabyn",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 2",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744553/Sabyn_qo2pri.webp"
+    },
+    {
+        "name": "Sheaf",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 9",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744609/Sheaf_t34m3d.webp"
+    },
+    {
+        "name": "Sol",
+        "occupation": ["Tribute"],
+        "weapon": ["Knife"],
+        "house": "District 5",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744655/Sol__28TBOSAS_29_nako8s.webp"
+    },
+    {
+        "name" : "Tanner",
+        "occupation":["Tribute"],
+        "weapon":["Sickle"],
+        "house":"District 10",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744824/Tanner_p2girl.webp"
+    },
+    {
+        "name" : "Teslee",
+        "occupation":["Tribute"],
+        "weapon":["N/A"],
+        "house":"District 3",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744874/Teslee__28TBOSAS_29_oparp3.webp"
+    },
+    {
+        "name" : "Treech",
+        "occupation":["Tribute"],
+        "weapon":["Axe"],
+        "house":"District 7",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730744969/Treech_in_cattle_car_iky1uj.webp"
+    },
+    {
+        "name" : "Velvereen",
+        "occupation":["Tribute"],
+        "weapon":["N/A"],
+        "house":"District 4",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745035/Velvereen__28TBOSAS_29_j3xjeh.webp"
+    },
+    {
+        "name" : "Wovey",
+        "occupation":["Tribute"],
+        "weapon":["N/A"],
+        "house":"District 8",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745090/Wovey_bhldv9.webp"
+    },
+    {
+        "name" : "Cato",
+        "occupation":["Career","Tribute"],
+        "weapon":["Sword"],
+        "house":"District 2",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745420/Cato_glare_fkmpum.webp"
+    },
+    {
+        "name" : "Clove",
+        "occupation":["Career", "Tribute"],
+        "weapon":["Knife"],
+        "house":"District 2",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745520/Cloveinarena_gcrzt0.webp"
+    },
+    {
+        "name" : "Katniss Everdeen",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Bow"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745711/Bf5cbb02-653a-11e4-9d3c-bc764e11a0bc_dtend3.webp"
+    },
+    {
+        "name" : "Foxface",
+        "occupation":["Tribute"],
+        "weapon":["Stealth", "Knife"],
+        "house":"District 5",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745786/Tribute_D5_Female_copy_fbobry.webp"
+    },
+    {
+        "name" : "Glimmer",
+        "occupation":["Career", "Tribute"],
+        "weapon":["Knife", "Sword"],
+        "house":"District 1",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745842/Tribute_D1_female_lvs0ny.webp"
+    },
+    {
+        "name" : "Marvel",
+        "occupation":["Career", "Tribute"],
+        "weapon":["Javelin", "Axe"],
+        "house":"District 1",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730745955/MarvelNormal_zjibzj.webp"
+    },
+    {
+        "name" : "Peeta Mellark",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Camouflage", "Strength"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730746050/Peeta_tribute_parade_spvr9g.webp"
+    },
+    {
+        "name" : "Rue",
+        "occupation":["Harvester", "Tribute"],
+        "weapon":["Slingshot", "Stealth"],
+        "house":"District 11",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730746142/Rue-s-interview-the-hunger-games-28914276-441-271_itfneu.webp"
+    },
+    {
+        "name" : "Thresh",
+        "occupation":["Tribute"],
+        "weapon":["Sword", "Spear"],
+        "house":"District 11",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730746230/Thresh_leaves_Feast_jnbdst.webp"
+    },
+    {
+        "name" : "",
+        "occupation":[],
+        "weapon":[],
+        "house":"",
+        "appearance":"",
+        "gender": "",
         "img": ""
     }
 ]
