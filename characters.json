@@ -495,13 +495,274 @@
         "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730756002/4f4205b7-c975-4ca5-89d8-4b3d5b293d0a.png"
     },
     {
-        "name" : "",
-        "occupation":[],
-        "weapon":[],
-        "house":"",
-        "appearance":"",
-        "gender": "",
-        "img": ""
+        "name" : "Ripper",
+        "occupation":["Saleswoman"],
+        "weapon":["N/A"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758551/1bb7388c-73ad-4fc5-b2a7-375bc67c9180.png"
+    },
+    {
+        "name" : "Boggs",
+        "occupation":["Soldier"],
+        "weapon":["Gun"],
+        "house":"District 13",
+        "appearance":"Mockingjay",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758649/72c5d88a-c041-4781-b6cb-e49511b763f6.png"
+    },
+    {
+        "name" : "Commander Hoff",
+        "occupation":["Peacekeeper"],
+        "weapon":["Gun"],
+        "house":"District 12",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758713/0873acd8-cb6b-4757-ac90-0d1e62401969.png"
+    },
+    {
+        "name" : "Greasy Sae",
+        "occupation":["Saleswoman"],
+        "weapon":["N/A"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758771/61ce3756-0231-4a33-95a8-00bcc102affe.png"
+    },
+    {
+        "name" : "Buttercup",
+        "occupation":["N/A"],
+        "weapon":["N/A"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758857/918dd1cc-6f4d-493a-b2a2-0152f3d6f282.png"
+    },
+    {
+        "name" : "Alma Coin",
+        "occupation":["President", "Rebels"],
+        "weapon":["Propaganda", "Bombs"],
+        "house":"District 13",
+        "appearance":"Mockingjay",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730758946/b35678fd-9b30-4186-b894-28f7ed4daf64.png"
+    },
+    {
+        "name" : "Primrose Everdeen",
+        "occupation":["Healer"],
+        "weapon":["N/A"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759019/128d3938-9bc6-44c6-b822-aee979b81f1f.png"
+    },
+    {
+        "name" : "Gale Hawthorne",
+        "occupation":["Coal Miner", "Soldier"],
+        "weapon":["Snare", "Gun", "Bow", "Bombs"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759148/985d8589-281d-45e8-897b-252965fbf6ac.png"
+    },
+    {
+        "name" : "Effie Trinket",
+        "occupation":["Escort", "Rebels"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759247/fda342ef-7fbc-4f5f-9308-baf93b4de2af.png"
+    },
+    {
+        "name" : "Haymitch Albernathy",
+        "occupation":["Victor", "Mentor", "Tribute"],
+        "weapon":["Knife", "Intelligence"],
+        "house":"District 12",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759332/420be96b-b8cf-4870-9bf8-6026c18159a5.png"
+    },
+    {
+        "name" : "Venia",
+        "occupation":["Prep Team"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759387/bdcf51fc-e9a8-482d-8724-bc1b423be7f2.png"
+    },
+    {
+        "name" : "Tigris",
+        "occupation":["Stylist", "Shopkeeper"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759498/3a2de158-bcb1-45e3-8de8-73dd66ebbcae.png"
+    },
+    {
+        "name" : "Claudius Templesmith",
+        "occupation":["Announcer"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759584/5d68f443-9b8f-4cd6-a276-e361c1b9a5a6.png"
+    },
+    {
+        "name" : "Corionalus Snow",
+        "occupation":["President", "Mentor", "Peacekeeper", "Gamemaker"],
+        "weapon":["Poison", "Plank"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759722/323deb5b-324a-49d4-bae4-41e97ae513a6.png"
+    },
+    {
+        "name" : "Portia",
+        "occupation":["Stylist"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759785/cfc5dc04-3edc-48aa-9a80-d4f520a7f176.png"
+    },
+    {
+        "name" : "Pollux",
+        "occupation":["Cameraman", "Rebels"],
+        "weapon":["Gun"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759859/60068ed0-8fa1-4f31-9378-0157491344ac.png"
+    },
+    {
+        "name" : "Sejanus Plinth",
+        "occupation":["Mentor", "Peacekeeper"],
+        "weapon":["Gun"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759932/c08a7e5a-11e8-4205-9ee6-1b664ca1a726.png"
+    },
+    {
+        "name" : "Octavia",
+        "occupation":["Prep Team"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730759959/0b21c561-4211-4bc8-a78f-00caf4022696.png"
+    },
+    {
+        "name" : "Messala",
+        "occupation":["Cameraman"],
+        "weapon":["Gun"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760025/7d2b085d-2f84-4f4c-844b-b7c6c6f76e83.png"
+    },
+    {
+        "name" : "Casca Highbottom",
+        "occupation":["Academy"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760303/940d639f-4e6b-4326-9b89-3eec08b3bff2.png"
+    },
+    {
+        "name" : "Hilarius Heavensbee",
+        "occupation":["Academy", "Mentor"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760385/3d494a3b-1eab-45ed-8d09-d3b30e6d23c5.png"
+    },
+    {
+        "name" : "Lucretius Flickerman",
+        "occupation":["Caster", "Announcer"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760438/905d7db0-fd7d-4139-87ae-3c220f35cb9c.png"
+    },
+    {
+        "name" : "Caesar Flickerman",
+        "occupation":["Caster", "Announcer"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760522/c818b3e6-33f4-4b77-9bca-20812363727e.png"
+    },
+    {
+        "name" : "Egeria",
+        "occupation":["Minister of Interior"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760542/98e6a513-1532-4231-b438-01fb3751a2f3.png"
+    },
+    {
+        "name" : "Clemensia Dovecote",
+        "occupation":["Academy", "Mentor"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760654/00cc5844-018c-4818-b4d9-9fc42bf6d447.png"
+    },
+    {
+        "name" : "Cressida",
+        "occupation":["Cameraman", "Rebels"],
+        "weapon":["Gun"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760666/5f1ec976-de02-4c40-96d6-05b453e388c9.png"
+    },
+    {
+        "name" : "Festus Creed",
+        "occupation":["Academy", "Mentor"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760707/60ed66cf-84bf-47ce-892b-0f43a8fdf1f8.png"
+    },
+    {
+        "name" : "Arachne Crane",
+        "occupation":["Academy", "Mentor"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760766/34dda3e9-6dad-4495-9cde-66fceeb780c6.png"
+    },
+    {
+        "name" : "Cinna",
+        "occupation":["Stylist", "Rebels"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760810/97ac1055-3484-41cb-acda-19289d739bea.png"
+    },
+    {
+        "name" : "Castor",
+        "occupation":["Cameraman", "Rebels"],
+        "weapon":["Gun"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730760867/1bc6fac4-9abe-4bbe-b73f-4dea81c33d8e.png"
     }
 
 ]
