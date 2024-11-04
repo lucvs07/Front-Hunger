@@ -34,6 +34,7 @@ export const Home = () => {
     const [dailyCharacter, setDailyCharacter] = useState<Character | null>(null);
     const [lastCharacter, setLastCharacter] = useState<Character | null>(null);
     const [allCharacters, setAllCharacters] = useState<Character[] | null>(null);
+    const [final, setFinal] = useState(false);
     const [history, setHistory] = useState<{ character: Character, comparison: { name: string, occupation: string, weapon: string, house: string, gender: string, appearance: string } }[]>([]);
 
     useEffect(() => {
@@ -86,7 +87,12 @@ export const Home = () => {
             };
             setHistory((prev) => [...prev, { character: foundCharacter, comparison }]);
         }
+        if (foundCharacter?.name === dailyCharacter?.name){
+          setFinal(true)
+        }
+
     };
+    console.log('Acertou! ', final)
     return (
         <HomeContainer>
             <HomeTitle>

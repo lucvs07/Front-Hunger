@@ -100,17 +100,17 @@ export const Input = ({ onSend, allCharacters} : InputProps) => {
         menuPortal: (provided) => ({
             ...provided,
             zIndex: 9999,
-            color: "$timber",
+            color: "#FFFBFC",
         }),
         option: (provided, state) => ({
             ...provided,
-            color: state.isSelected ? "$timber" : "$timber", // Cor do texto
-            backgroundColor: state.isSelected ? "#C03221" : "transparent", // Fundo vermelho quando selecionado
+            color: state.isSelected ? "#FFFBFC" : "#FFFBFC", // Cor do texto
+            backgroundColor: state.isSelected ? "rgba(192, 50, 33, 0.35)" : "transparent", // Fundo vermelho quando selecionado
             fontFamily: "'Russo One', sans-serif",
             fontSize: "2rem",
             "&:hover": {
-                backgroundColor: "#C03221", // Cor de fundo no hover
-                color: "$timber",
+                backgroundColor: "rgba(192, 50, 33, 0.35)", // Cor de fundo no hover
+                color: "#FFFBFC",
             },
         }),
     }

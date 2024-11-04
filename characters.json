@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Reaper Ash",
+        "occupation": "Tribute",
+        "weapon": ["Pitchfork", "Long Knife"],
+        "house": "District 11",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": ""
+    },
+    {
+        "name": "Lucy Gray",
+        "occupation": ["Tribute", "Musician", "Victor"],
+        "weapon": ["Poison", "Snakes"],
+        "house": "District 12",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": ""
+    },
+    {
+        "name": "Bobbin",
+        "occupation": ["Tribute"],
+        "weapon": ["Knife", "Machete"],
+        "house": "District 8",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Male",
+        "img": ""
+    },
+    {
+        "name": "Brandy",
+        "occupation": ["Tribute"],
+        "weapon": ["N/A"],
+        "house": "District 10",
+        "appearance": "The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": ""
+    }
+]
