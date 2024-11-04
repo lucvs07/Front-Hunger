@@ -297,6 +297,204 @@
         "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730746230/Thresh_leaves_Feast_jnbdst.webp"
     },
     {
+        "name" : "Blight",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Axe"],
+        "house":"District 7",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730751298/Johanna_and_Blight_ykrzza.webp"
+    },
+    {
+        "name" : "Brutus",
+        "occupation":["Career", "Tribute", "Victor"],
+        "weapon":["Spear"],
+        "house":"District 2",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730751389/Still02-brutus_naqttt.webp"
+    },
+    {
+        "name" : "Cashmere",
+        "occupation":["Career", "Tribute", "Victor", "Mentor"],
+        "weapon":["Knife"],
+        "house":"District 1",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730751758/Thgexplorer_cashmere_clupni.webp"
+    },
+    {
+        "name" : "Cecelia",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["N/A"],
+        "house":"District 8",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730751829/Cecelia_z009c0.webp"
+    },
+    {
+        "name" : "Chaff",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Spear"],
+        "house":"District 11",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730751900/ChaffDeathPortrait_igoel6.webp"
+    },
+    {
+        "name" : "Enobaria",
+        "occupation":["Career", "Tribute", "Victor", "Mentor"],
+        "weapon":["Teeth", "Sword", "Knife"],
+        "house":"District 2",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752003/77d31e9d-0ccd-4c05-9dc3-a600b2d2bfd5.png"
+    },
+    {
+        "name" : "Mags Flanagan",
+        "occupation":["Victor", "Mentor", "Tribute"],
+        "weapon":["Fishhook", "Awl"],
+        "house":"District 4",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752096/bbd7c715-0ece-42f2-a802-c7d020d7b7d6.png"
+    },
+    {
+        "name" : "Gloss",
+        "occupation":["Victor", "Mentor", "Career", "Tribute"],
+        "weapon":["Dagger", "Knife"],
+        "house":"District 1",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752203/30e18333-0a7c-4fed-85a0-31da0f3e8d5f.png"
+    },
+    {
+        "name" : "Beetee Latier",
+        "occupation":["Victor", "Mentor", "Tribute", "Inventor"],
+        "weapon":["Eletronic", "Wire"],
+        "house":"District 3",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752301/8684e616-8bca-4943-91e5-f49b496d43dd.png"
+    },
+    {
+        "name" : "Johanna Mason",
+        "occupation":["Victor", "Mentor", "Tribute"],
+        "weapon":["Axe"],
+        "house":"District 7",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752395/d113154d-a790-406e-b607-262c4af27d9b.png"
+    },
+    {
+        "name" : "Morphlings",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Camouflage", "Stealth"],
+        "house":"District 6",
+        "appearance":"Catching Fire",
+        "gender": "Male and Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752498/d1ac247f-c112-466c-a452-5156219bb543.png"
+    },
+    {
+        "name" : "Finnick Odair",
+        "occupation":["Career", "Tribute", "Victor", "Mentor"],
+        "weapon":["Trident", "Knife", "Net", "Spear"],
+        "house":"District 4",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752624/2f46a91a-282d-4d6d-91f8-c8ecd212cd96.png"
+    },
+    {
+        "name" : "Seeder",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["N/A"],
+        "house":"District 11",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752680/58266619-2ddb-4a9e-bd3b-b0b9af5ff1b1.png"
+    },
+    {
+        "name" : "Wiress",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["Intelligence"],
+        "house":"District 3",
+        "appearance":"Catching Fire",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752789/d3334511-6e83-4cb3-99ae-53d7482b9373.png"
+    },
+    {
+        "name" : "Woof",
+        "occupation":["Victor", "Tribute"],
+        "weapon":["N/A"],
+        "house":"District 8",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730752802/f086da61-754b-469e-bd86-e336d1260e72.png"
+    },
+    {
+        "name" : "Antonius",
+        "occupation":["Minister of Defense"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"Mockingjay",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755389/550fb648-ad50-459c-9228-446cd2db4146.png"
+    },
+    {
+        "name" : "Atala",
+        "occupation":["Head Trainer"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755478/58052044-62b5-4cc9-b7f2-c8a9ab6c4630.png"
+    },
+    {
+        "name" : "Livia Cardew",
+        "occupation":["Academy", "Mentor"],
+        "weapon":["N/A"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755530/e90946bd-b0c7-4c04-94a3-49515efc2933.png"
+    },
+    {
+        "name" : "Annie Cresta",
+        "occupation":["Victor", "Career", "Tribute"],
+        "weapon":["Swimming"],
+        "house":"District 4",
+        "appearance":"Mockingjay",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755643/28abe852-c633-4fdc-9e92-3acfaf937606.png"
+    },
+    {
+        "name" : "Pluttarch Heavensbee",
+        "occupation":["Gamemaker", "Rebels"],
+        "weapon":["Propaganda", "Intelligence"],
+        "house":"The Capitol",
+        "appearance":"Catching Fire",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755821/2dd9d1ec-35e7-421d-bd0f-a49e4de04ca1.png"
+    },
+    {
+        "name" : "Seneca Crane",
+        "occupation":["Gamemaker"],
+        "weapon":["Control Room"],
+        "house":"The Capitol",
+        "appearance":"The Hunger Games",
+        "gender": "Male",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730755894/45a34295-d056-4cb5-ada5-b99caac25980.png"
+    },
+    {
+        "name" : "Volumnia Gaul",
+        "occupation":["Gamemaker", "Scientist"],
+        "weapon":["Intelligence"],
+        "house":"The Capitol",
+        "appearance":"The Ballad of Songbirds and Snakes",
+        "gender": "Female",
+        "img": "https://res.cloudinary.com/dkircdiyj/image/upload/v1730756002/4f4205b7-c975-4ca5-89d8-4b3d5b293d0a.png"
+    },
+    {
         "name" : "",
         "occupation":[],
         "weapon":[],
@@ -305,4 +503,5 @@
         "gender": "",
         "img": ""
     }
+
 ]
