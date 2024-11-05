@@ -1,6 +1,7 @@
 
 import { 
     HomeContainer,
+    GameContainer,
     Title,
     HomeTitle,
     TableContainer,
@@ -10,9 +11,11 @@ import { Input } from '../../components/Input/Input';
 import { HeaderTable } from '../../components/HeaderTable/HeaderTable';
 import { BodyTable } from '../../components/BodyTable/BodyTable';
 import { YesterdayCharacter } from '../../components/YesterdayCharacter/YesterdayCharacter';
+import { FinalCharacter } from '../../components/FinalCharacter/FinalCharacter';
 import { Footer } from '../../components/Footer/Footer';
 import { Feather } from '@phosphor-icons/react';
-import { useEffect, useState} from 'react';
+import { useEffect, useState, useRef} from 'react';
+import victorySound from '../../assets/panem_anthem.mp3'
 // API
 //const API = import.meta.env.VITE_API_BASE_URL;
 // Interface Characters
@@ -30,19 +33,25 @@ interface Character {
 }
 
 export const Home = () => {
+    // Ref
+    const audioRef = useRef(new Audio(victorySound));
     // States
     const [dailyCharacter, setDailyCharacter] = useState<Character | null>(null);
     const [lastCharacter, setLastCharacter] = useState<Character | null>(null);
     const [allCharacters, setAllCharacters] = useState<Character[] | null>(null);
     const [final, setFinal] = useState(false);
+    const [tentativas, setTentativas] = useState(1);
+    const [isExiting, setIsExiting] = useState(false);
     const [history, setHistory] = useState<{ character: Character, comparison: { name: string, occupation: string, weapon: string, house: string, gender: string, appearance: string } }[]>([]);
 
     useEffect(() => {
         fetch('/characters/last')
           .then(response => response.json())
           .then(data => {
-            if (data) {
+            if (data && !data.message) {
               setLastCharacter(data);
+            } else {
+              setLastCharacter(null)
             }
           });
       }, []);
@@ -71,6 +80,7 @@ export const Home = () => {
     const handleSend = (selectedValue: OptionType['value'] | null) => {
         const foundCharacter = allCharacters?.find((character: Character) => character.name === selectedValue);
         if (foundCharacter && dailyCharacter) {
+            setTentativas(tentativas+1)
             const comparison = {
                 name: foundCharacter.name === dailyCharacter.name ? 'correct' : 'incorrect',
                 occupation:
@@ -88,27 +98,53 @@ export const Home = () => {
             setHistory((prev) => [...prev, { character: foundCharacter, comparison }]);
         }
         if (foundCharacter?.name === dailyCharacter?.name){
-          setFinal(true)
+          setIsExiting(true)
+          console.log('Tentativas: ', tentativas)
+          setTimeout(() =>{
+            setFinal(true)
+            audioRef.current.play();
+          }, 500)
         }
 
     };
-    console.log('Acertou! ', final)
+    
     return (
         <HomeContainer>
             <HomeTitle>
                 <Title>HUNGERDLE</Title>
                 <Feather size={68} color='#C03221' weight='fill'/>
             </HomeTitle>
-            <Input onSend={handleSend} allCharacters={allCharacters}/>
-            <TableContainer>
-                <HeaderTable />
-                <BodyTable history={history}/>
-            </TableContainer>
+            {
+              final?(
+                <>
+                  <FinalCharacter
+                    img={dailyCharacter?.img || ''}
+                    name={dailyCharacter?.name || ''}
+                    tentativas={tentativas}
+                  />
+
+                </>
+              ) : (
+                <GameContainer exit={isExiting ? "True" : undefined}>
+                  <Input onSend={handleSend} allCharacters={allCharacters}/>
+                  <TableContainer>
+                      <HeaderTable />
+                      <BodyTable history={history}/>
+                  </TableContainer>
+                </GameContainer>
+                
+              )
+            }
+            
             <Linha />
-            <YesterdayCharacter
-                img={lastCharacter?.img || ''}
-                name={lastCharacter?.name || ''}
-            />
+            { lastCharacter && (
+                <YesterdayCharacter
+                  img={lastCharacter?.img || ''}
+                  name={lastCharacter?.name || ''}
+                />
+              )
+            }
+            
             <Footer />
         </HomeContainer>
     )

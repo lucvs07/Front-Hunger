@@ -1,4 +1,9 @@
-import { styled } from "@stitches/react";
+import { styled, keyframes} from "@stitches/react";
+
+const fadeOut = keyframes({
+    '0%':{opacity:1, transform:'translateY(0px)'},
+    '100%':{opacity:0, transform: 'translateY(20px)'},
+  });
 
 export const HomeContainer = styled("div", {
     display: "flex",
@@ -12,6 +17,21 @@ export const HomeContainer = styled("div", {
     gap: "2rem",
     padding: "0.5rem",
 });
+
+export const GameContainer = styled("div", {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "2rem",
+    variants:{
+        exit: {
+            True:{
+                animation: `${fadeOut} 0.5s ease-in-out forwards`
+            }
+        }
+
+    }
+})
 
 export const Title = styled("h1", {
     color: "$snow",
